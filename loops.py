@@ -30,13 +30,46 @@ square(200) """
     t.right(5)
 print(i) """
 
-sidelength = 100
+""" sidelength = 100
 rotate = 90
 def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
 square(100,90)
+
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5) """
+
+""" def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+def sixtySquares(iRange):
+   length = 5
+   for i in range(iRange):
+       square(length, 90)
+       length = length + 5
+       t.left(5)
+sixtySquares(60) """
+
+def star(x,y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
+def star_loop(iRange):
+    length = 5
+    for i in range(iRange):
+        star(length, 144)
+        length = length + 5
+        t.left(5)
+star_loop(60)
+
+
 
 
 
