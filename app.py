@@ -39,3 +39,20 @@ y = False
 bill = input("how much was the bill?")
 print(int(bill + 20))
 #input is a string always
+
+
+students = ["Ellie", "Preston", "Ben", "Elyse"]
+students.append("Sofia")
+print(students[-1])
+for i in students:
+    print(students)
+
+    if student == "Ben":
+        print(f'we found {student}')
+#string
+y = input("Who am i")
+
+
+
+x = "Elyse"
+print(x.split(" "))
